@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{97038b4b-59c4-4d7b-b941-709eb31939c1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Macro_library_VSTA00000081_vst_R1132100327574_00000081_A_1</RootNamespace>
+    <AssemblyName>Macro_library_VSTA00000081_vst_R1132100327574_00000081_A_1</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkProfile></TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="DassaultSystemes.CATKinSimulationIDL.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.CATKinMechanismIDL.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.PLMInterferenceIDL.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.DNBDevice.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.AnnotationTypeLib.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.ElectricalTypeLib.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.SimRepresentationTypeLib.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.CAT3DXMLPLAYERTLB.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.CATCompositesTypeLib.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.DELArcWeld.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.CATAssemblyTypeLib.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.CATOpnsVocIDL.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.CATANNOTITF.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.CATDigitizedMorphing.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.GenKwe.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.CATEngConnectionIDL.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.CATMaterialTypeLib.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.CATOpnsInertiaIDL.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.CATOpnsMeasureIDL.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.KnowledgewareTypeLib.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.CATOpnsSectionIDL.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.FCBITF.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.CATPLMEnvBuild.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.DELBehavior.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.CATSimPLMIDL.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.CATSmInterfacesTypeLib.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.CATStk.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.DNBIgripSim.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.CATSrsIDLTypeLib.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.PLMAccessIDLItf.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.DELCurveTrajectoryIDLTypeLib.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.PARTITF.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.DPMSettings.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.DELDrillRivetFeatureIDLTypeLib.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.DELRobSurfIDLTypeLib.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.DPCOperationsTypeLib.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.DELOlp.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.DELPointCloud.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.DELPointOperation.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.DELPointTrajectory.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.DELResourceBuilderIDLTypeLib.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.INFITF.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.DELRobotSimulation.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.DELSpotWeldingDRIDLTypeLib.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.DELSpotWeldingIDLTypeLib.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.ProductStructureClientIDL.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.DNBFittingIDL.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.DNBIgpTagPath.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.MachiningResourceUse.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.DNBPPRNavSettingsTypeLib.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.DNBResourceLayout.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.DNBSpotWelding.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.DRAFTINGITF.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.HybridShapeTypeLib.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.LAYOUT2DITF.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.MachiningOperationUse.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.MachiningUse.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.MECMOD.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.PLMValidationIDL.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.OptimizationTLB.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.PCBITF.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.PLMApplicationContextIDL.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.PLMModelerBaseIDL.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.PLMSimulationEngineIDL.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.PLMSimulationTypeLib.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.PROCESSITF.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.RefGeomTypeLib.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.SDDTypeLib.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.SdeTypeLib.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.SFDTypeLib.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.SimStructuralTypeLib.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.SimBaseTypeLib.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.SimFoundationTypeLib.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.SimMaterialTypeLib.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.SimOptimizationTypeLib.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.SimResultsTypeLib.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.SimulationTypeLib.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.StrTypeLib.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.SWKHumanModelingItf.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.SWXAuPerformance.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.SWXAutomation.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.SWXBuAutomation.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.SWXCommunity.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.SWXCSPDM.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.SWXPDM.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.VPMEditorContextIDL.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DassaultSystemes.CATIAAppTypeLibProxyVsta2013.Interop, Version=0.0.0.0, Culture=neutral, PublicKeyToken=195d4f63e9c1ff3b, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ThisApplication.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{30D016F9-3734-4E33-A861-5E7D899E18F3}">
+        <ProjectProperties HostName="DSYVstaHost" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="" Language="cs" TemplatesPath="" />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
